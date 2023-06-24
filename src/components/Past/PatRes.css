@@ -1,0 +1,236 @@
+.res-mentor {
+  width: 100%;
+  height: 600px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.res-profile-card {
+  position: relative;
+  width: 200px;
+  height: 500px !important;
+  padding: 20px;
+  border-radius: 50%;
+  transition: 0.6s;
+  margin: 0 15px;
+}
+
+.res-profile-card .img {
+  position: relative;
+  transition: 0.6s;
+  z-index: 99;
+  width: 200px !important;
+}
+
+.res-img img {
+  width: 200px !important;
+  height: 200px !important;
+  /* border-radius: 50%; */
+  transition: 0.6s;
+  /* border:2px solid black; */
+}
+
+.three-dots {
+  text-align: center;
+}
+
+.three-dots span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff !important;
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.team h1::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 150px;
+  /* background-color: #eee; */
+  border-radius: 50%;
+}
+
+.team-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #000;
+  margin: 0 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.team-box img {
+  vertical-align: bottom;
+  transition: all 0.3s ease;
+}
+.team-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: scale(0);
+  transition: all 0.3s ease;
+  transform-origin: 0%;
+}
+
+.team-box:hover .team-name3 {
+  transition: all 0.3s ease 0.2s;
+}
+
+.team-box:hover .team-details {
+  transition: all 0.3s ease 0.3s;
+}
+
+.team-box:hover .team-social-links {
+  transition: all 0.3s ease 0.4s;
+}
+
+.custom-btn {
+  margin: 0 40%;
+  width: 330px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-5 {
+  background: rgb(255, 151, 0);
+  border: none;
+  z-index: 1;
+  width: 29%;
+}
+.btn-5:after {
+  position: absolute;
+  content: "";
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #eaf818;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5) 7px 7px 20px 0px
+      rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.btn-5:hover {
+  color: #000;
+}
+.btn-5:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn-5:active {
+  top: 2px;
+}
+.name3,
+.post {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 25%;
+}
+
+@media screen and (max-width: 400px) {
+  .custom-btn {
+    margin-left: 30%;
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+  }
+  .past {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  #pastresult {
+    margin-top: -55px;
+    margin-bottom: -200px;
+  }
+  .owl-carousel {
+    margin-top: -100px;
+  }
+  .name3,
+  .post {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 15%;
+  }
+  .past-tb {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .custom-btn {
+    width: 200px;
+    font-weight: bold;
+  }
+  .past {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .res-mentor {
+    margin: 70px;
+    text-align: center;
+  }
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .name3,
+  .post {
+    margin-left: -80px;
+  }
+
+  .three-dots {
+    display: none;
+  }
+}
+
+.ab {
+  margin-bottom: -100px;
+}

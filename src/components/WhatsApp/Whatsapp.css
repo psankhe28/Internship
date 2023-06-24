@@ -1,0 +1,30 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 10px;
+  left: 10px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: -3px;
+  margin-left: 2px;
+  padding: auto;
+  font-size: 40px;
+  text-align: center;
+}
+.my-float:hover,.my-float:visited,.my-float:focus {
+    text-decoration: none;
+    margin-top: -3px;
+    margin-left: 2px;
+    padding: auto;
+    font-size: 40px;
+    text-align: center;
+  }

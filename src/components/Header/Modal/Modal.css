@@ -1,0 +1,171 @@
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modalC {
+  width: 100vw;
+  height: 100vh;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.modalC {
+  z-index: 10;
+}
+
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 500px;
+  min-height: 300px;
+}
+
+.modal-content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #000;
+}
+.close-m {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+.close-m:hover {
+  color: #000 !important;
+  /* background-color: #000; */
+}
+.form-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  border: none;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 2em;
+  padding: 1em 0 0.5em 0.5em;
+  border-bottom: 2px solid #202040;
+  color: black;
+}
+.btn-1 {
+  background: rgb(6, 14, 131);
+  background: linear-gradient(
+    0deg,
+    rgba(6, 14, 131, 1) 0%,
+    rgba(12, 25, 180, 1) 100%
+  );
+  border: none;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+}
+.btn-1:hover {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 3, 255, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+}
+.btn-1:disabled {
+  display: none;
+}
+.subject {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.btn-ab {
+  right: 0;
+}
+
+.btn-ab:hover {
+  color: black;
+}
+.bbutton a:hover {
+  color: white !important;
+}
+
+@media screen and (max-width: 450px) {
+  .modal-content {
+    max-width: 400px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+  .modal-content h2 {
+    font-size: 14px;
+  }
+  .abutton {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .bbutton {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .form-title{
+    font-size: 12px;
+  }
+}
+
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 20px;
+  width: 34vw;
+  padding: 30px 20px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

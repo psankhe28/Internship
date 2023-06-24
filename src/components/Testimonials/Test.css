@@ -1,0 +1,207 @@
+.Test {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.gtco-testimonials {
+  position: relative;
+  height: 900px;
+  width: 100% !important;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+.gtco-testimonials h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  background: inherit;
+}
+.card {
+  background: #fff;
+  border-radius: 20px;
+  margin:10px;
+  border: 2px solid black;
+}
+
+.gtco-testimonials .card h5 {
+  color: #01b0f8;
+  font-size: 21px;
+  line-height: 1.3;
+  text-align: center;
+  margin-top: 0;
+}
+.gtco-testimonials .card h5 span {
+  font-size: 18px;
+  color: #666666;
+  padding-top: 0;
+}
+.gtco-testimonials .card p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 0;
+  padding-bottom: 15px;
+}
+.gtco-testimonials .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.gtco-testimonials .center {
+  opacity: 1;
+}
+.gtco-testimonials .center h5 {
+  font-size: 24px;
+}
+.gtco-testimonials .center h5 span {
+  font-size: 20px;
+}
+.gtco-testimonials .center .card-img-top {
+  max-width: 100%;
+  height: 120px;
+  width: 120px;
+}
+
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px;
+  }
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  outline: 0;
+}
+.owl-carousel button.owl-dot {
+  outline: 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #01b0f8;
+  margin-right: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.heading-test {
+  text-transform: uppercase;
+  background-color: aliceblue;
+}
+
+.box {
+  padding: 25px;
+}
+
+@media (max-width: 1045px) {
+  .box {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.ab:hover {
+  background-color: #000;
+}
+
+.slick-slide {
+  width: 800px;
+}
+.slick-slider {
+  display: block;
+  box-sizing: border-box;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .slick-slider {
+    width: 117% !important;
+    margin-left: -50px;
+    margin-right: -50px !important;
+    overflow: hidden;
+  }
+  .slick-slide {
+    width: 800px;
+    margin: auto;
+    margin-right: -30px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slick-slider {
+    width: 118% !important;
+    margin-left: -50px;
+    margin-right: -50px !important;
+    overflow: hidden;
+  }
+  .slick-slide {
+    width: 355px;
+    margin: auto;
+    margin-right: -30px !important;
+  }
+  .gtco-testimonials {
+    height: 550px;
+  }
+  .slider-test {
+    margin-top: 20px;
+  }
+
+  .fl{
+    margin-left: -100px;
+  }
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+.slider-test {
+  overflow: hidden !important;
+  cursor: pointer;
+}
+.slick-slide > div {
+  margin: 0 10px;
+  overflow: hidden;
+
+}
+.slick-list {
+  margin: 0 50px;
+  overflow: hidden;
+}
+
+

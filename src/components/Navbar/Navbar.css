@@ -1,0 +1,27 @@
+.logo{
+    width:125px;
+}
+.navbar{
+  color:#fff !important;
+  z-index: 1000;
+  background: radial-gradient(#021027, #000000) ;
+}
+.hm{
+  background: radial-gradient(#021027, #000000) ;
+}
+.nav-hidden{
+  z-index: 1000;
+  top:0;
+  position:fixed;
+}
+.bt-c a{
+  color:white;
+}
+.bt-c a:hover{
+  color:black;
+}
+.con:link,.con:visited,.con:hover,.con:active{
+  color: white !important;
+}
+
+
